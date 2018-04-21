@@ -5,6 +5,7 @@ MIT License: See https://github.com/gorhill/Javascript-Voronoi/LICENSE.md
 /*
 Author: Raymond Hill (rhill@raymondhill.net)
 Contributor: Jesse Morgan (morgajel@gmail.com)
+Contributor (conversion to typescript): Sid Datta (https://github.com/dattasid)
 File: rhill-voronoi-core.js
 Version: 0.98
 Date: January 21, 2013
