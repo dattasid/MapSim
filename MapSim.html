@@ -279,10 +279,12 @@ function setHide(id)
 function setOptsVisible(c_parent, c_toshow)
 {
     var elems = document.getElementsByClassName(c_parent);
+    console.log(elems)
     for (elem of elems)
     {
         if (elem.classList.contains(c_toshow)) {
             elem.style.display = "contents";
+            console.log("aaaa")
         } else {
             elem.style.display = "none";
         }
@@ -493,9 +495,9 @@ function toggleRivers()
 
     <br/>
 
-    <a href="#" id="downloader" download="underwater.png">
+    <!--a href="#" id="downloader" download="underwater.png">
         <button type="button" class="download" onclick="downloadPNG()">Download PNG</button>
-    </a>
+    </a-->
 
     <a href="#" id="saveSVG" download="underwater.svg">
         <button class="download" type="button">Download SVG</button>
